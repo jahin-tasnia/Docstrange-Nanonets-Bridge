@@ -10,7 +10,7 @@ from utils import (
     _should_shrink,
 )
 
-INPUT_PDF = "samples/annual_report.pdf"  # <-- use your actual file here
+INPUT_PDF = "samples/annual_report.pdf"  
 DOC_STEM = os.path.splitext(os.path.basename(INPUT_PDF))[0]
 
 OUT_MD_DIR = "output/markdown"
