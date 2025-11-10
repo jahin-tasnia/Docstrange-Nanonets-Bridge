@@ -1,0 +1,78 @@
+# -------------------------
+# Python ignores
+# -------------------------
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+.eggs/
+.build/
+dist/
+build/
+*.log
+
+# -------------------------
+# Virtual environments
+# -------------------------
+.venv/
+venv/
+ENV/
+env/
+
+# -------------------------
+# IDE / Editor settings
+# -------------------------
+.vscode/
+.idea/
+*.code-workspace
+
+# -------------------------
+# OS-generated files
+# -------------------------
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# -------------------------
+# Notebook checkpoints
+# -------------------------
+.ipynb_checkpoints/
+
+# -------------------------
+# Tests / Coverage
+# -------------------------
+.coverage*
+htmlcov/
+.pytest_cache/
+
+# -------------------------
+# Type checker / cache
+# -------------------------
+.mypy_cache/
+.pyre/
+.cache/
+
+# -------------------------
+# Output and temporary data
+# -------------------------
+output/
+tmp/
+cache/
+**/*.error.txt
+
+# -------------------------
+# PDF and large data samples
+# -------------------------
+samples/*.pdf
+samples/*.png
+samples/*.jpg
+samples/*.jpeg
+
+# -------------------------
+# Environment / Secrets
+# -------------------------
+*.env
+.env.*
+config_local.py
