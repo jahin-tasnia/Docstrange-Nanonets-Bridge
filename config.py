@@ -1,5 +1,5 @@
 # config.py
-API_KEY = "184b2bf1-b979-11f0-b947-868b076ee330"  # replace with your actual API key
+API_KEY = "Nanonets_API_Key"  # replace with your actual API key
 URL = "https://extraction-api.nanonets.com/extract"
 HEADERS = {"Authorization": f"Bearer {API_KEY}"}
 
